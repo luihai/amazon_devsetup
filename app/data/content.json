@@ -1,0 +1,85 @@
+{
+  "last_updated": "2026-01-20T09:16:41.123881",
+  "niches": [
+    {
+      "slug": "sci-fi-for-data-scientists",
+      "title": "Science Fiction for Data Scientists",
+      "description": "Explore the intersection of logic, AI, and futuristic worlds.",
+      "books": [
+        {
+          "title": "The Cyberiad",
+          "author": "Stanislaw Lem",
+          "description": "This collection of tales follows two brilliant 'constructors' in a universe of logic and innovation, offering humorous yet profound explorations of artificial intelligence and the limits of computation. Known for its clever blend of sci-fi and abstract reasoning, it's a must-read for data enthusiasts interested in speculative technology.",
+          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
+          "amazon_link": "https://amazon.com/s?k=The+Cyberiad+Stanislaw+Lem&tag=bibliophileai-20"
+        },
+        {
+          "title": "Permutation City",
+          "author": "Greg Egan",
+          "description": "This underrated gem explores the concept of simulated realities and artificial minds, delving deep into philosophies of consciousness and identity\u2014perfect for data scientists curious about the future of virtual life. Egan's novel is both mind-bending and intellectually stimulating, making it a treasure for those who enjoy unraveling complex theories.",
+          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
+          "amazon_link": "https://amazon.com/s?k=Permutation+City+Greg+Egan&tag=bibliophileai-20"
+        },
+        {
+          "title": "Autonomous",
+          "author": "Annalee Newitz",
+          "description": "A sci-fi thriller about patent pirates and biotech, 'Autonomous' weaves a future where AI and human ethics intersect in exciting ways. Lesser-known but fascinatingly intricate, it explores themes of autonomy and sentience\u2014topics that will intrigue those with a penchant for data and a curiosity for ethical implications in technology.",
+          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
+          "amazon_link": "https://amazon.com/s?k=Autonomous+Annalee+Newitz&tag=bibliophileai-20"
+        }
+      ]
+    },
+    {
+      "slug": "philosophy-for-python-devs",
+      "title": "Philosophy for Python Developers",
+      "description": "Deep thinking that aligns with the Pythonic mindset of simplicity.",
+      "books": []
+    },
+    {
+      "slug": "history-of-math-for-coders",
+      "title": "History of Mathematics for Coders",
+      "description": "Understand the origins of the algorithms you use every day.",
+      "books": [
+        {
+          "title": "The Crest of the Peacock: Non-European Roots of Mathematics",
+          "author": "George Gheverghese Joseph",
+          "description": "This book delves into the diverse origins of mathematical concepts, providing coders with a broader understanding of global contributions to today\u2019s algorithms. It empowers readers to appreciate and apply non-Western traditions in computation, potentially inspiring innovative approaches in coding.",
+          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
+          "amazon_link": "https://amazon.com/s?k=The+Crest+of+the+Peacock+George+Gheverghese+Joseph&tag=bibliophileai-20"
+        },
+        {
+          "title": "Algorithmic Puzzles",
+          "author": "Anany Levitin and Maria Levitin",
+          "description": "While not strictly a history book, this text uses historical puzzles to illustrate the evolution of algorithms, offering coders intuitive insight into problem-solving. The historical context enriches the reader's appreciation of algorithm development over time, linking past challenges with modern computing.",
+          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
+          "amazon_link": "https://amazon.com/s?k=Algorithmic+Puzzles+Anany+Levitin+Maria+Levitin&tag=bibliophileai-20"
+        },
+        {
+          "title": "Mathematics and Its History",
+          "author": "John Stillwell",
+          "description": "This comprehensive exploration traces the chronological development of mathematical concepts, vital for coders who wish to understand the historical foundations of the algorithms they use. Stillwell's engaging narrative connects these mathematical milestones directly to contemporary computational approaches.",
+          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
+          "amazon_link": "https://amazon.com/s?k=Mathematics+and+Its+History+John+Stillwell&tag=bibliophileai-20"
+        }
+      ]
+    },
+    {
+      "slug": "tech-pioneer-biographies",
+      "title": "Biographies of Tech Pioneers",
+      "description": "Learn from the lives that built the digital age.",
+      "books": []
+    },
+    {
+      "slug": "cyberpunk-classics",
+      "title": "Cyberpunk Classics",
+      "description": "The roots of the virtual worlds we are building today.",
+      "books": []
+    },
+    {
+      "slug": "stoicism-for-founders",
+      "title": "Stoicism for startup founders",
+      "description": "Mental models for enduring the highs and lows of building.",
+      "books": []
+    }
+  ]
+}
