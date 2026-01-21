@@ -52,11 +52,11 @@ export default function Home() {
               Browse Setups
             </Link>
             <Link
-              href="https://github.com/Start-With-AI/DevSetup.AI"
-              target="_blank"
-              className="bg-neutral-800 text-white border border-neutral-700 px-8 py-3.5 rounded-full font-bold hover:bg-neutral-700 transition-colors"
+              href="/create"
+              className="bg-neutral-800 text-white border border-neutral-700 px-8 py-3.5 rounded-full font-bold hover:bg-neutral-700 transition-colors flex items-center gap-2"
             >
-              GitHub Repo
+              <Zap className="w-4 h-4" />
+              Create your own
             </Link>
           </div>
         </div>

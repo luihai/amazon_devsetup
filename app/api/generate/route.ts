@@ -51,10 +51,10 @@ export async function POST(req: Request) {
             return NextResponse.json({
                 books: [
                     {
-                        title: "Demo Book 1",
-                        author: "Demo Author",
-                        description: "OpenAI Key missing. Please add it to Vercel env variables.",
-                        image_url: "https://placehold.co/400x600/e2e8f0/475569?text=Demo+Book",
+                        title: "ErgoChair Pro",
+                        author: "Autonomous", // Mapping Brand to Author for compatibility
+                        description: "Demo mode: API Key missing. Please add OPENAI_API_KEY env var.",
+                        image_url: "https://placehold.co/600x400/171717/FFF?text=Demo+Chair",
                         amazon_link: "#"
                     }
                 ]
@@ -67,24 +67,24 @@ export async function POST(req: Request) {
             messages: [
                 {
                     role: "system",
-                    content: "You are an expert literary curator. You recommend hidden gems, not just bestsellers."
+                    content: "You are an expert workspace curator. You recommend high-quality developer tools, furniture, and electronics."
                 },
                 {
                     role: "user",
-                    content: `Recommend 6 specific, high-quality books for the niche topic: "${topic}".
+                    content: `Recommend 5 specific, high-quality tech products for the desk setup niche: "${topic}".
           
-          For each book, provide:
-          - Title
-          - Author
-          - A convincing 2-sentence reason for this specific audience.
+          For each product, provide:
+          - Title (Impactful product name)
+          - Brand (Manufacturer)
+          - Description (2 sentences on why it fits this specific niche)
           
           Return ONLY valid JSON in this format:
           {
-            "books": [
+            "products": [
               {
-                "title": "Title",
-                "author": "Author",
-                "description": "Reason"
+                "title": "Product Name",
+                "brand": "Brand Name",
+                "description": "Reasoning..."
               }
             ]
           }`
@@ -94,22 +94,23 @@ export async function POST(req: Request) {
         });
 
         const result = JSON.parse(completion.choices[0].message.content || "{}");
-        const books = result.books || [];
+        const products = result.products || [];
 
-        // Enhance with real covers
-        const enhancedBooks = await Promise.all(books.map(async (book: any) => {
-            const image_url = await fetchBookCover(book.title, book.author);
-            // Ensure https
-            const secure_image_url = image_url?.replace("http://", "https://") || "https://placehold.co/400x600/e2e8f0/475569?text=No+Cover";
-
+        // Enhance with placeholders and affiliate links
+        const enhancedProducts = products.map((item: any) => {
+            const safeTitle = encodeURIComponent(item.title);
             return {
-                ...book,
-                image_url: secure_image_url,
-                amazon_link: `https://amazon.com/s?k=${encodeURIComponent(book.title + " " + book.author)}&tag=${process.env.AMAZON_TAG || "busybibliophi-20"}`
+                title: item.title,
+                author: item.brand, // Mapping 'brand' to 'author' for frontend compatibility
+                brand: item.brand,
+                description: item.description,
+                image_url: `https://placehold.co/600x400/171717/FFF?text=${safeTitle}`,
+                amazon_link: `https://amazon.com/s?k=${encodeURIComponent(item.brand + " " + item.title)}&tag=${process.env.AMAZON_TAG || "busybibliophi-20"}`
             };
-        }));
+        });
 
-        return NextResponse.json({ books: enhancedBooks });
+        // Return 'books' key because frontend expects it currently
+        return NextResponse.json({ books: enhancedProducts });
 
     } catch (error) {
         console.error("Analysis failed:", error);
