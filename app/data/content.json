@@ -1,85 +1,161 @@
 {
-  "last_updated": "2026-01-20T09:16:41.123881",
+  "last_updated": "2026-01-21T12:00:00.000000",
   "niches": [
     {
-      "slug": "sci-fi-for-data-scientists",
-      "title": "Science Fiction for Data Scientists",
-      "description": "Explore the intersection of logic, AI, and futuristic worlds.",
-      "books": [
+      "slug": "minimalist-coder",
+      "title": "The Minimalist Coder",
+      "description": "A distraction-free workspace for maximum focus. Clean lines, wireless freedom, and aesthetic purity.",
+      "products": [
         {
-          "title": "The Cyberiad",
-          "author": "Stanislaw Lem",
-          "description": "This collection of tales follows two brilliant 'constructors' in a universe of logic and innovation, offering humorous yet profound explorations of artificial intelligence and the limits of computation. Known for its clever blend of sci-fi and abstract reasoning, it's a must-read for data enthusiasts interested in speculative technology.",
-          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
-          "amazon_link": "https://amazon.com/s?k=The+Cyberiad+Stanislaw+Lem&tag=bibliophileai-20"
+          "title": "NuPhy Air75 V2",
+          "brand": "NuPhy",
+          "category": "Keyboard",
+          "description": "The ultimate low-profile mechanical keyboard. Incredible typing feel in a package that looks like it belongs in an art gallery.",
+          "image_url": "https://m.media-amazon.com/images/I/61MwGArCNPL._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=NuPhy+Air75+V2&tag=busybibliophi-20"
         },
         {
-          "title": "Permutation City",
-          "author": "Greg Egan",
-          "description": "This underrated gem explores the concept of simulated realities and artificial minds, delving deep into philosophies of consciousness and identity\u2014perfect for data scientists curious about the future of virtual life. Egan's novel is both mind-bending and intellectually stimulating, making it a treasure for those who enjoy unraveling complex theories.",
-          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
-          "amazon_link": "https://amazon.com/s?k=Permutation+City+Greg+Egan&tag=bibliophileai-20"
+          "title": "MX Master 3S",
+          "brand": "Logitech",
+          "category": "Mouse",
+          "description": "The gold standard for productivity. Silent clicks, infinite scroll wheel, and ergonomic shape that prevents wrist strain.",
+          "image_url": "https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Logitech+MX+Master+3S&tag=busybibliophi-20"
         },
         {
-          "title": "Autonomous",
-          "author": "Annalee Newitz",
-          "description": "A sci-fi thriller about patent pirates and biotech, 'Autonomous' weaves a future where AI and human ethics intersect in exciting ways. Lesser-known but fascinatingly intricate, it explores themes of autonomy and sentience\u2014topics that will intrigue those with a penchant for data and a curiosity for ethical implications in technology.",
-          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
-          "amazon_link": "https://amazon.com/s?k=Autonomous+Annalee+Newitz&tag=bibliophileai-20"
+          "title": "ScreenBar Halo",
+          "brand": "BenQ",
+          "category": "Lighting",
+          "description": "Saves desk space while illuminating your work. No screen glare, auto-dimming, and a backlight for ambient mood.",
+          "image_url": "https://m.media-amazon.com/images/I/710e6Xm-K7L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=BenQ+ScreenBar+Halo&tag=busybibliophi-20"
+        },
+        {
+          "title": "UltraSharp 27 4K",
+          "brand": "Dell",
+          "category": "Monitor",
+          "description": "USB-C Hub monitor that declutters your desk. One cable charges your laptop and connects all your peripherals.",
+          "image_url": "https://m.media-amazon.com/images/I/91+8+p+y+L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Dell+UltraSharp+27+4K+U2723QE&tag=busybibliophi-20"
+        },
+        {
+          "title": "Grovemade Wool Felt Desk Pad",
+          "brand": "Grovemade",
+          "category": "Accessory",
+          "description": "Anchors your workspace with natural texture. Soft under the wrists and dampens keyboard sound.",
+          "image_url": "https://m.media-amazon.com/images/I/81xUe5-Q+L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Wool+Felt+Desk+Pad&tag=busybibliophi-20"
         }
       ]
     },
     {
-      "slug": "philosophy-for-python-devs",
-      "title": "Philosophy for Python Developers",
-      "description": "Deep thinking that aligns with the Pythonic mindset of simplicity.",
-      "books": []
-    },
-    {
-      "slug": "history-of-math-for-coders",
-      "title": "History of Mathematics for Coders",
-      "description": "Understand the origins of the algorithms you use every day.",
-      "books": [
+      "slug": "data-station",
+      "title": "The Data Station",
+      "description": "Optimized for information density. Screen real estate and ergonomics for long coding sessions.",
+      "products": [
         {
-          "title": "The Crest of the Peacock: Non-European Roots of Mathematics",
-          "author": "George Gheverghese Joseph",
-          "description": "This book delves into the diverse origins of mathematical concepts, providing coders with a broader understanding of global contributions to today\u2019s algorithms. It empowers readers to appreciate and apply non-Western traditions in computation, potentially inspiring innovative approaches in coding.",
-          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
-          "amazon_link": "https://amazon.com/s?k=The+Crest+of+the+Peacock+George+Gheverghese+Joseph&tag=bibliophileai-20"
+          "title": "49\" Curved Ultrawide",
+          "brand": "LG",
+          "category": "Monitor",
+          "description": "Replace dual monitors with one seamless horizon. Perfect for having IDE, Terminal, and Docs open simultaneously.",
+          "image_url": "https://m.media-amazon.com/images/I/81I-Gj1+L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=LG+49WL95C-W&tag=busybibliophi-20"
         },
         {
-          "title": "Algorithmic Puzzles",
-          "author": "Anany Levitin and Maria Levitin",
-          "description": "While not strictly a history book, this text uses historical puzzles to illustrate the evolution of algorithms, offering coders intuitive insight into problem-solving. The historical context enriches the reader's appreciation of algorithm development over time, linking past challenges with modern computing.",
-          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
-          "amazon_link": "https://amazon.com/s?k=Algorithmic+Puzzles+Anany+Levitin+Maria+Levitin&tag=bibliophileai-20"
+          "title": "Embody Chair",
+          "brand": "Herman Miller",
+          "category": "Chair",
+          "description": "Designed specifically for people who sit at computers. It mimics the human spine and keeps blood flowing.",
+          "image_url": "https://m.media-amazon.com/images/I/71N-1+L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Herman+Miller+Embody&tag=busybibliophi-20"
         },
         {
-          "title": "Mathematics and Its History",
-          "author": "John Stillwell",
-          "description": "This comprehensive exploration traces the chronological development of mathematical concepts, vital for coders who wish to understand the historical foundations of the algorithms they use. Stillwell's engaging narrative connects these mathematical milestones directly to contemporary computational approaches.",
-          "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
-          "amazon_link": "https://amazon.com/s?k=Mathematics+and+Its+History+John+Stillwell&tag=bibliophileai-20"
+          "title": "Keychron Q1 Pro",
+          "brand": "Keychron",
+          "category": "Keyboard",
+          "description": "Heavy, aluminum custom mechanical keyboard. QMK/VIA programmable for custom macros to speed up your workflow.",
+          "image_url": "https://m.media-amazon.com/images/I/61N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Keychron+Q1+Pro&tag=busybibliophi-20"
+        },
+        {
+          "title": "Lift Vertical Mouse",
+          "brand": "Logitech",
+          "category": "Mouse",
+          "description": "Prevents RSI by keeping your hand in a natural handshake position. Essential for 8+ hour days.",
+          "image_url": "https://m.media-amazon.com/images/I/61N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Logitech+Lift+Vertical&tag=busybibliophi-20"
         }
       ]
     },
     {
-      "slug": "tech-pioneer-biographies",
-      "title": "Biographies of Tech Pioneers",
-      "description": "Learn from the lives that built the digital age.",
-      "books": []
+      "slug": "deep-work-chamber",
+      "title": "The Deep Work Chamber",
+      "description": "A sensory-controlled environment designed to induce flow state instantly.",
+      "products": [
+        {
+          "title": "WH-1000XM5",
+          "brand": "Sony",
+          "category": "Headphones",
+          "description": "Industry-leading noise cancellation. Put them on, and the world disappears. Perfect for open offices or noisy homes.",
+          "image_url": "https://m.media-amazon.com/images/I/51N-1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Sony+WH-1000XM5&tag=busybibliophi-20"
+        },
+        {
+          "title": "Kindle Scribe",
+          "brand": "Amazon",
+          "category": "Tablet",
+          "description": "Read papers and sketch diagrams without digital distractions. e-Ink feels like paper but syncs to the cloud.",
+          "image_url": "https://m.media-amazon.com/images/I/61N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Kindle+Scribe&tag=busybibliophi-20"
+        },
+        {
+          "title": "Hue Play Bars",
+          "brand": "Philips",
+          "category": "Lighting",
+          "description": "Bias lighting that reduces eye strain and sets the mood. Program it to turn red when you're 'busy'.",
+          "image_url": "https://m.media-amazon.com/images/I/61N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Philips+Hue+Play&tag=busybibliophi-20"
+        },
+        {
+          "title": "TimeFlip2",
+          "brand": "TimeFlip",
+          "category": "Productivity",
+          "description": "A physical pomodoro timer. Flip it to track different tasks. Tactile interaction reinforces the commitment to focus.",
+          "image_url": "https://m.media-amazon.com/images/I/61N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=TimeFlip2&tag=busybibliophi-20"
+        }
+      ]
     },
     {
-      "slug": "cyberpunk-classics",
-      "title": "Cyberpunk Classics",
-      "description": "The roots of the virtual worlds we are building today.",
-      "books": []
-    },
-    {
-      "slug": "stoicism-for-founders",
-      "title": "Stoicism for startup founders",
-      "description": "Mental models for enduring the highs and lows of building.",
-      "books": []
+      "slug": "nomad-kit",
+      "title": "The Digital Nomad Kit",
+      "description": "Everything you need to ship code from a coffee shop in Tokyo or a beach in Bali.",
+      "products": [
+        {
+          "title": "MacBook Air M3",
+          "brand": "Apple",
+          "category": "Laptop",
+          "description": "The perfect balance of power and portability. All-day battery life means you never need to hunt for an outlet.",
+          "image_url": "https://m.media-amazon.com/images/I/71N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=MacBook+Air+M3&tag=busybibliophi-20"
+        },
+        {
+          "title": "Roost Laptop Stand",
+          "brand": "Roost",
+          "category": "Stand",
+          "description": "Ultra-lightweight and collapsible. Elevates your screen to eye level to prevent neck pain on the road.",
+          "image_url": "https://m.media-amazon.com/images/I/61N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Roost+Laptop+Stand&tag=busybibliophi-20"
+        },
+        {
+          "title": "GaNPrime 65W Charger",
+          "brand": "Anker",
+          "category": "Power",
+          "description": "One tiny brick to charge your Mac, Phone, and Earbuds. Replaces three bulky adapters.",
+          "image_url": "https://m.media-amazon.com/images/I/61N+1+sC2L._AC_SL1500_.jpg",
+          "amazon_link": "https://amazon.com/s?k=Anker+GaNPrime+65W&tag=busybibliophi-20"
+        }
+      ]
     }
   ]
 }

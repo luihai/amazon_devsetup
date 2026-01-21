@@ -80,7 +80,7 @@ def generate_niche_content(niche, client=None):
                     "author": "Author Name",
                     "description": "A 2-sentence persuasive reason why this specific audience should read it.",
                     "image_url": "https://via.placeholder.com/300x450?text=Book+Cover",
-                    "amazon_link": "https://amazon.com/s?k=BOOK+TITLE+AUTHOR&tag=bibliophileai-20"
+                    "amazon_link": "https://amazon.com/s?k=BOOK+TITLE+AUTHOR&tag=busybibliophi-20"
                   }}
               ]
             }}
